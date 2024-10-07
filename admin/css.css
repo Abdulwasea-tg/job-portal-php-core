@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #DAE3F3;
+}
+
+.header,.nav,.center{
+    /*border-style: solid;*/
+    /*border-color: red;*/
+    border:none;
+    background-color: black;
+}
+
+.header{
+    background-color: #00B0F0;
+    color: white;
+    display: inline;
+    width: 100%;
+    height: 10%;
+    float: left;
+    font-weight: bolder;
+    font-size: 24pt;
+    padding: 10px;
+}
+
+.nav{
+    background-color: #0070C0;
+    width: 100%;
+    height: 10%;
+    float: left; 
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.center{
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 96%;
+    height: 86%;
+    margin: 2%;
+    padding: 40px;
+    font-weight: bolder;
+    /* float: left;   */
+}
+h3{
+    display: inline-block;
+}
+.btn_logout{
+    background-color:#00B0F0 ;
+    border:0px solid black;
+    border-radius: 8px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px;
+}
+ul{
+    width: 100%;
+    margin: 0 auto;
+
+} 
+li{
+    display: inline-block;
+    background-color: #0070C0;
+    width: 10%;
+    
+    
+    list-style: none;
+
+}
+
+.btn_tab{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #0070C0;
+    border:0px solid black;
+    border-left:2px solid #FFFFFF  ;
+    
+    color: white;
+    width: 100%;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 5px;
+    background-image: url("Resorce//user_25px.png");
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+#tab_1{
+    border-left:0px solid #FFFFFF ;
+}
+.btn_tab:hover,.btn_logout:hover{
+    background-color:#64b1cd;
+    color: black;
+    
+}
+.btn_tab:active,.btn_logout:active{
+    background-color: red;
+    color: black;
+}
+.container{
+    background-color: azure;
+    
+    width: 100%;
+    height: 90%;
+    
+    margin: 20px 0px ;
+    max-width: 1024px;
+}
+
+a{
+    color: #FFFFFF;
+
+} 
+/* span{
+    position: relative;
+    width: 100%;
+
+} */
+img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
