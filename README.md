@@ -1,14 +1,21 @@
 # job-portal-php-core
+
+## Purpose
+
 I built this  job portal using PHP to practice core programming concepts and, html, css, js
 
+for fun
+
 ### Features
-Admin: approve new employer, job seeker and manage users.
+
+Admin: approve new employer, job seeker and manage users, news, feedbacks.
 
 Job seeker:Register, login, manage profile, Search jobs, apply for job, manage application status
 
 Employer:Register, login, manage profile, post and manage jobs, manage candidates applications 
 
 ## Admin panel
+
 #### Home
 ![image](https://github.com/user-attachments/assets/8bb5d0fa-fd94-450d-8ca1-f19b163e936d)
 
