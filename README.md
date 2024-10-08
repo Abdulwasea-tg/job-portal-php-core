@@ -2,8 +2,10 @@
 I built this  job portal using PHP to practice core programming concepts and, html, css, js
 
 ### Features
-Admin: approve new employer, job seeker and manage users
+Admin: approve new employer, job seeker and manage users.
+
 Job seeker:Register, login, manage profile, Search jobs, apply for job, manage application status
+
 Employer:Register, login, manage profile, post and manage jobs, manage candidates applications 
 
 ## Admin panel
